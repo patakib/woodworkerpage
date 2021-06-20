@@ -6,9 +6,9 @@ body {
 }
 
 .navbar {
-	background-color: #ede0d4 !important;
-	height: 10vh;
-	font-size: 2.5em;
+	background-color: #dad7cd !important;
+	height: 14vh;
+	font-size: 2.75em;
 	font-weight: bold;
 }
 
@@ -18,16 +18,32 @@ body {
 }
 
 .nav-link:hover {
-  color: #cdaf94 !important;
+  color: #d5bd96 !important;
 }
 
 #mainTitle {
-	background-color: #ede0d4;
+	background-color: #dad7cd;
 	color: #50382a;
 	margin-top: 30vh;
 	text-align: center;
 	font-size: 10vh;
 	font-family: 'Caveat', cursive;
-	border: 2px solid #50382a;
+	border: 2px solid #50514f;
 	opacity: 0.8;
+}
+
+#welcome-section {
+	height: 100vh;
+}
+
+#services-section {
+	height: 100vh;
+}
+
+#services {
+	background-color: #dad7cd;
+	opacity: 0.9;
+	height: 90vh;
+	text-align: center;
+	margin-top: 20vh;
 }
