@@ -1,15 +1,23 @@
 
+:root {
+	font-size: 6px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	background-image: url('woodbg.jpg');
 	background-size: 100%;
-	font-size: 8px;
 }
 
 .navbar {
 	background-color: #dad7cd !important;
-	height: 14vh;
-	font-size: 2.75em;
+	height: clamp(100px,15%,150px);
+	font-size: clamp(26px,4em,36px);
 	font-weight: bold;
+	max-width: 100%;
 }
 
 .nav-link {
@@ -21,6 +29,10 @@ body {
   color: #d5bd96 !important;
 }
 
+li > a {
+	margin-right: 2.5rem;
+}
+
 
 .scrolled-down{
   transform:translateY(-100%); transition: all 0.5s ease-in-out;
@@ -30,28 +42,87 @@ body {
 }
 
 #mainTitle {
+	width: 95%;
 	background-color: #dad7cd;
 	color: #50382a;
-	margin-top: 30vh;
+	margin-top: 25vh;
 	text-align: center;
-	font-size: 10vh;
+	font-size: clamp(70px,8vw,50px);
 	font-family: 'Caveat', cursive;
 	border: 5px solid #50382a;
 	opacity: 0.8;
 }
 
 #welcome-section {
-	height: 100vh;
+	height: clamp(500px,100%,750px);
+	padding-bottom: clamp(150px,30rem,300px);
 }
 
-#services-section {
-	height: 100vh;
+#aboutHolder {
+	min-height: 1200px;
+}
+
+#about {
+	background-color: #dad7cd;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 3vw;
+	font-family: 'Nunito', sans-serif;
+	padding-bottom: 3vh;
+	padding-top: 3vh;
+	padding-right: 1vw;
+	padding-left: 1vw;
+}
+
+#servicesHolder {
+	min-height: 750px;
 }
 
 #services {
 	background-color: #dad7cd;
 	opacity: 0.9;
-	height: 90vh;
 	text-align: center;
-	margin-top: 20vh;
+	font-size: 3vw;
+	font-family: 'Nunito', sans-serif;
+	padding-bottom: 3vh;
+	padding-top: 3vh;
+}
+
+#workTitle {
+	background-color: #dad7cd;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 3vw;
+	font-family: 'Nunito', sans-serif;
+	padding-bottom: 3vh;
+	padding-top: 3vh;
+}
+
+#workHolder {
+	margin-bottom: 8vh;
+}
+
+#imgHolder1, #imgHolder2, #imgHolder3, #imgHolder4 {
+	max-height: 400px;
+  overflow: hidden;
+}
+
+img {
+	width: 100%;
+	padding: 2vh 2vh 2vh 2vh;
+}
+
+#contactHolder {
+	min-height: 650px;
+}
+
+#contact {
+	background-color: #dad7cd;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 3vw;
+	font-family: 'Nunito', sans-serif;
+	margin-bottom: 3vh;
+	padding-bottom: 3vh;
+	padding-top: 3vh;
 }
