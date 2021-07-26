@@ -1,6 +1,6 @@
 
 :root {
-	font-size: 6px;
+	font-size: 4px;
 }
 
 html {
@@ -14,15 +14,15 @@ body {
 
 .navbar {
 	background-color: #dad7cd !important;
-	height: clamp(100px,15%,150px);
 	font-size: clamp(26px,4em,36px);
-	font-weight: bold;
 	max-width: 100%;
 }
 
 .nav-link {
 	color: #50382a !important;
-	font-family: 'Nunito', sans-serif;
+	font-family: sans-serif;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
 }
 
 .nav-link:hover {
@@ -31,6 +31,12 @@ body {
 
 li > a {
 	margin-right: 2.5rem;
+}
+
+.navbar-toggler-icon {
+	height: 5vh;
+	width: 6vw;
+
 }
 
 
@@ -66,8 +72,8 @@ li > a {
 	background-color: #dad7cd;
 	opacity: 0.9;
 	text-align: center;
-	font-size: 3vw;
-	font-family: 'Nunito', sans-serif;
+	font-size: 2.5vw;
+	font-family: sans-serif;
 	padding-bottom: 3vh;
 	padding-top: 3vh;
 	padding-right: 1vw;
@@ -83,7 +89,7 @@ li > a {
 	opacity: 0.9;
 	text-align: center;
 	font-size: 3vw;
-	font-family: 'Nunito', sans-serif;
+	font-family: sans-serif;
 	padding-bottom: 3vh;
 	padding-top: 3vh;
 }
@@ -93,7 +99,7 @@ li > a {
 	opacity: 0.9;
 	text-align: center;
 	font-size: 3vw;
-	font-family: 'Nunito', sans-serif;
+	font-family: sans-serif;
 	padding-bottom: 3vh;
 	padding-top: 3vh;
 }
@@ -121,7 +127,7 @@ img {
 	opacity: 0.9;
 	text-align: center;
 	font-size: 3vw;
-	font-family: 'Nunito', sans-serif;
+	font-family: sans-serif;
 	margin-bottom: 3vh;
 	padding-bottom: 3vh;
 	padding-top: 3vh;
