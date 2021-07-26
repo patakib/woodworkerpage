@@ -1,4 +1,3 @@
-
 :root {
 	font-size: 4px;
 }
@@ -20,7 +19,7 @@ body {
 
 .nav-link {
 	color: #50382a !important;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;;
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
@@ -73,7 +72,7 @@ li > a {
 	opacity: 0.9;
 	text-align: center;
 	font-size: 2.5vw;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding-bottom: 3vh;
 	padding-top: 3vh;
 	padding-right: 1vw;
@@ -89,7 +88,7 @@ li > a {
 	opacity: 0.9;
 	text-align: center;
 	font-size: 3vw;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding-bottom: 3vh;
 	padding-top: 3vh;
 }
@@ -99,7 +98,7 @@ li > a {
 	opacity: 0.9;
 	text-align: center;
 	font-size: 3vw;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding-bottom: 3vh;
 	padding-top: 3vh;
 }
@@ -127,7 +126,7 @@ img {
 	opacity: 0.9;
 	text-align: center;
 	font-size: 3vw;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin-bottom: 3vh;
 	padding-bottom: 3vh;
 	padding-top: 3vh;
